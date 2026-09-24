@@ -1,0 +1,660 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Obelora Hospitality | Resorts, Hotels, Campus Residences and Cafés</title>
+  <meta name="description" content="Obelora Hospitality creates resorts, hotels, campus residences and cafés shaped by their surroundings and run with genuine, attentive care." />
+  <meta property="og:title" content="Obelora Hospitality" />
+  <meta property="og:description" content="Resorts, hotels, campus residences and cafés, shaped by place and run with genuine care." />
+  <meta property="og:image" content="./assets/hero-resort.webp" />
+  <meta name="theme-color" content="#f2eee6" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg" />
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+  <link href="https://api.fontshare.com/v2/css?f[]=gambarino@400&display=swap" rel="stylesheet" />
+  <link href="https://api.fontshare.com/v2/css?f[]=switzer@300,400,500&display=swap" rel="stylesheet" />
+  <link rel="preload" as="image" href="./assets/hero-resort.webp" />
+  <link rel="stylesheet" href="./style.css" />
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Organization","name":"Obelora Hospitality","email":"Rk@obelora.com","description":"Resorts, hotels, campus residences and cafés."}
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="header" id="header">
+    <div class="header__inner">
+      <button class="menu-btn" id="menuOpen" aria-expanded="false" aria-controls="menu">
+        <span class="menu-btn__lines" aria-hidden="true"><i></i><i></i></span>
+        <span class="menu-btn__label">Menu</span>
+      </button>
+
+      <a href="#top" class="brand" aria-label="Obelora Hospitality, back to top">
+        <svg class="brand__mark" viewBox="0 0 40 48" fill="none" aria-hidden="true">
+          <path d="M6 46V20C6 11.16 12.27 4 20 4s14 7.16 14 16v26" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M20 13l3 6v21h-6V19l3-6z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <path d="M2 46h36" stroke="currentColor" stroke-width="1.4"/>
+        </svg>
+        <span class="brand__word">Obelora</span>
+      </a>
+
+      <div class="header__right">
+        <button class="theme-btn" id="themeToggle" aria-label="Switch to dark mode" title="Switch theme">
+          <svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></svg>
+          <svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+        </button>
+        <a href="#contact" class="enquire">Enquire</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="menu" id="menu" role="dialog" aria-modal="true" aria-label="Site menu" hidden>
+    <div class="menu__panel">
+      <div class="menu__top">
+        <button class="menu-close" id="menuClose" aria-label="Close menu">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg>
+          <span>Close</span>
+        </button>
+      </div>
+      <nav class="menu__nav" aria-label="Primary">
+        <ol>
+          <li><a href="#resorts" data-img="./assets/resort-villa.webp"><span class="n">01</span>Resorts</a></li>
+          <li><a href="#hotels" data-img="./assets/hotel-lobby.webp"><span class="n">02</span>Hotels</a></li>
+          <li><a href="#residences" data-img="./assets/campus-residence.webp"><span class="n">03</span>Campus Residences</a></li>
+          <li><a href="#cafes" data-img="./assets/cafe.webp"><span class="n">04</span>Cafés</a></li>
+          <li><a href="#approach" data-img="./assets/colonnade.webp"><span class="n">05</span>Our Approach</a></li>
+          <li><a href="#contact" data-img="./assets/dining.webp"><span class="n">06</span>Contact</a></li>
+        </ol>
+      </nav>
+      <div class="menu__foot">
+        <span>General enquiries</span>
+        <a href="mailto:Rk@obelora.com">Rk@obelora.com</a>
+      </div>
+    </div>
+    <div class="menu__media" aria-hidden="true">
+      <img id="menuImg" src="./assets/resort-villa.webp" alt="" />
+    </div>
+  </div>
+
+  <main id="main">
+
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <img src="./assets/hero-resort.webp" alt="A hillside resort of limestone and timber above the sea at dusk, its infinity pool reflecting lantern light" width="1536" height="1024" fetchpriority="high" />
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <div class="hero__content wrap">
+        <p class="eyebrow eyebrow--light hero__eyebrow">Obelora Hospitality</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span>Stay a while</span></span>
+          <span class="line"><span>longer.</span></span>
+        </h1>
+        <div class="hero__foot">
+          <p class="hero__lede">Resorts, hotels, campus residences and cafés, each shaped by its surroundings and looked after with genuine care.</p>
+          <a href="#about" class="hero__scroll" aria-label="Scroll to discover more">
+            <span>Discover</span>
+            <i aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro wrap" id="about" aria-labelledby="intro-title">
+      <div class="intro__label reveal">
+        <p class="eyebrow">The House of Obelora</p>
+      </div>
+      <div class="intro__body">
+        <h2 class="intro__statement reveal" id="intro-title">We believe a good place to stay is felt before it is seen. In the hush of a lobby at first light, the weight of well made linen, a morning coffee poured exactly right.</h2>
+        <div class="intro__cols reveal">
+          <p>Obelora brings that feeling to every kind of stay. Whether you arrive for a week by the sea, a night in the city, four years of university life or a quiet half hour with a book, you will find the same attention to detail and the same warmth at the door.</p>
+          <p>Our houses are designed with the character of their setting in mind, built from honest materials and staffed by people who take real pride in looking after others. Nothing is generic. Everything is considered.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="collection" id="collection" aria-labelledby="collection-title">
+      <div class="wrap collection__grid">
+        <div class="collection__list">
+          <p class="eyebrow reveal">The Collection</p>
+          <h2 class="section-title reveal" id="collection-title">Four ways to stay</h2>
+          <ul class="index" role="list">
+            <li class="index__item is-active" data-img="./assets/resort-villa.webp">
+              <a href="#resorts">
+                <span class="index__n">01</span>
+                <span class="index__name">Resorts</span>
+                <span class="index__desc">Retreats by the sea, in the hills and among the forests.</span>
+                <img class="index__thumb" src="./assets/resort-villa.webp" alt="" loading="lazy" />
+              </a>
+            </li>
+            <li class="index__item" data-img="./assets/hotel-lobby.webp">
+              <a href="#hotels">
+                <span class="index__n">02</span>
+                <span class="index__name">Hotels</span>
+                <span class="index__desc">Calm, well connected addresses at the heart of the city.</span>
+                <img class="index__thumb" src="./assets/hotel-lobby.webp" alt="" loading="lazy" />
+              </a>
+            </li>
+            <li class="index__item" data-img="./assets/campus-residence.webp">
+              <a href="#residences">
+                <span class="index__n">03</span>
+                <span class="index__name">Campus Residences</span>
+                <span class="index__desc">Safe, beautifully designed homes for students and young scholars.</span>
+                <img class="index__thumb" src="./assets/campus-residence.webp" alt="" loading="lazy" />
+              </a>
+            </li>
+            <li class="index__item" data-img="./assets/cafe.webp">
+              <a href="#cafes">
+                <span class="index__n">04</span>
+                <span class="index__name">Cafés</span>
+                <span class="index__desc">Neighbourhood rooms for good coffee, fresh bakes and slow mornings.</span>
+                <img class="index__thumb" src="./assets/cafe.webp" alt="" loading="lazy" />
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="collection__media" aria-hidden="true">
+          <div class="collection__frame">
+            <img class="is-shown" src="./assets/resort-villa.webp" alt="" />
+            <img src="./assets/hotel-lobby.webp" alt="" loading="lazy" />
+            <img src="./assets/campus-residence.webp" alt="" loading="lazy" />
+            <img src="./assets/cafe.webp" alt="" loading="lazy" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature feature--resorts" id="resorts" aria-labelledby="resorts-title">
+      <div class="wrap feature__grid">
+        <figure class="feature__main reveal-img">
+          <img src="./assets/resort-villa.webp" alt="A villa terrace at sunrise with a stone plunge pool and a linen daybed overlooking a misty valley" width="1400" height="1120" loading="lazy" data-parallax="0.06" />
+        </figure>
+        <div class="feature__text">
+          <p class="eyebrow reveal"><span class="eyebrow__n">01</span> Resorts</p>
+          <h2 class="section-title reveal" id="resorts-title">Retreats that follow the rhythm of the land</h2>
+          <p class="reveal">Our resorts are places to slow down completely. Villas open onto gardens and water, menus change with what the local farms bring in, and every day can be as full or as empty as you wish.</p>
+          <ul class="details reveal" role="list">
+            <li>Private pool villas and garden suites</li>
+            <li>Spa rituals rooted in local traditions</li>
+            <li>Seasonal, farm to table dining</li>
+            <li>Guided walks, yoga at dawn and stargazing</li>
+          </ul>
+        </div>
+        <figure class="feature__aside reveal-img">
+          <img src="./assets/dining.webp" alt="A candlelit table set under a pergola at dusk with seasonal dishes and a view of the sea" width="1024" height="1536" loading="lazy" />
+          <figcaption>Dinner under the pergola, as the sun goes down.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="feature feature--hotels" id="hotels" aria-labelledby="hotels-title">
+      <div class="wrap feature__grid">
+        <div class="feature__text">
+          <p class="eyebrow reveal"><span class="eyebrow__n">02</span> Hotels</p>
+          <h2 class="section-title reveal" id="hotels-title">A quiet address in the middle of everything</h2>
+          <p class="reveal">For business, for pleasure or for both. Our city hotels pair a central location with rooms that feel like a deep breath. Thoughtful design, restful beds and a team that remembers how you take your tea.</p>
+          <ul class="details reveal" role="list">
+            <li>Suites designed for rest and focused work</li>
+            <li>All day dining and an intimate evening bar</li>
+            <li>Meeting rooms and private event spaces</li>
+            <li>Personal concierge for the city</li>
+          </ul>
+          <figure class="feature__inset reveal-img">
+            <img src="./assets/hotel-suite.webp" alt="A calm hotel suite with a low oak bed dressed in natural linen and sheer curtains glowing with afternoon light" width="1254" height="1254" loading="lazy" />
+          </figure>
+        </div>
+        <figure class="feature__main feature__main--tall reveal-img">
+          <img src="./assets/hotel-lobby.webp" alt="A double height hotel lobby with travertine floors, oak panelling, olive velvet chairs and a brass reception desk in afternoon sun" width="1024" height="1536" loading="lazy" data-parallax="0.05" />
+        </figure>
+      </div>
+    </section>
+
+    <section class="bleed" aria-label="Our philosophy">
+      <div class="bleed__media">
+        <img src="./assets/colonnade.webp" alt="A shaded stone colonnade opening onto a garden of cypress and olive trees" width="1536" height="1024" loading="lazy" data-parallax="0.08" />
+      </div>
+      <div class="bleed__shade" aria-hidden="true"></div>
+      <blockquote class="bleed__quote wrap reveal">
+        <p>True hospitality is quiet. You notice it most in how you feel on the way home.</p>
+      </blockquote>
+    </section>
+
+    <section class="residences" id="residences" aria-labelledby="residences-title">
+      <div class="wrap">
+        <div class="residences__head">
+          <p class="eyebrow eyebrow--light reveal"><span class="eyebrow__n">03</span> Campus Residences</p>
+          <h2 class="residences__title reveal" id="residences-title">A home that makes the university years count</h2>
+          <p class="residences__lede reveal">We bring the standards of a fine hotel to student living. Our residences give students a private, secure and inspiring place to live, and give parents complete peace of mind.</p>
+        </div>
+
+        <div class="residences__gallery">
+          <figure class="residences__wide reveal-img">
+            <img src="./assets/campus-residence.webp" alt="A landscaped residence courtyard framed by terracotta brick buildings at golden hour" width="1400" height="933" loading="lazy" data-parallax="0.05" />
+          </figure>
+          <figure class="residences__small reveal-img">
+            <img src="./assets/campus-lounge.webp" alt="A study lounge with a long oak table, green shaded brass lamps and tall arched windows" width="1400" height="933" loading="lazy" />
+            <figcaption>The study lounge, open late through exam season.</figcaption>
+          </figure>
+        </div>
+
+        <dl class="amenities">
+          <div class="reveal"><dt>Private rooms</dt><dd>Fully furnished studios and ensuite rooms with generous storage and good natural light.</dd></div>
+          <div class="reveal"><dt>Spaces to study</dt><dd>Quiet libraries, group rooms and fast, reliable internet throughout.</dd></div>
+          <div class="reveal"><dt>Safety, always</dt><dd>Staffed reception, secure access and round the clock support on site.</dd></div>
+          <div class="reveal"><dt>Wholesome dining</dt><dd>Chef prepared meal plans that are balanced, fresh and full of flavour.</dd></div>
+          <div class="reveal"><dt>Care included</dt><dd>Housekeeping, laundry and maintenance handled for you, so study comes first.</dd></div>
+          <div class="reveal"><dt>Life beyond class</dt><dd>Fitness studios, gardens and a calendar of events that turn neighbours into friends.</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="cafes" id="cafes" aria-labelledby="cafes-title">
+      <div class="wrap cafes__grid">
+        <figure class="cafes__main reveal-img">
+          <img src="./assets/cafe.webp" alt="A sunlit artisan café with a terrazzo counter, espresso machine, sourdough loaves and bentwood chairs" width="1400" height="933" loading="lazy" data-parallax="0.05" />
+        </figure>
+        <div class="cafes__text">
+          <p class="eyebrow reveal"><span class="eyebrow__n">04</span> Cafés</p>
+          <h2 class="section-title reveal" id="cafes-title">The neighbourhood’s favourite table</h2>
+          <p class="reveal">Our cafés are made for lingering. Carefully sourced coffee, bread baked each morning and a short, seasonal menu, served in rooms full of daylight. Come for a meeting, stay for the second cup.</p>
+          <figure class="cafes__detail reveal-img">
+            <img src="./assets/coffee-pour.webp" alt="A barista pouring steamed milk into a flat white in a speckled stoneware cup" width="1024" height="1536" loading="lazy" />
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="approach" id="approach" aria-labelledby="approach-title">
+      <div class="wrap">
+        <div class="approach__head">
+          <p class="eyebrow reveal">Our Approach</p>
+          <h2 class="section-title reveal" id="approach-title">Three things we never compromise on</h2>
+        </div>
+        <ol class="principles" role="list">
+          <li class="principle reveal">
+            <span class="principle__n">I</span>
+            <h3>A sense of place</h3>
+            <p>Every Obelora house draws from its surroundings. Local materials, local makers and local flavours give each one a character you could not find anywhere else.</p>
+          </li>
+          <li class="principle reveal">
+            <span class="principle__n">II</span>
+            <h3>Craft in the details</h3>
+            <p>From the weight of a door handle to the thread count of a pillowcase, we sweat the small things so that our guests never have to think about them.</p>
+          </li>
+          <li class="principle reveal">
+            <span class="principle__n">III</span>
+            <h3>Care that feels personal</h3>
+            <p>Service at Obelora is warm, intuitive and never scripted. We hire for kindness, train for excellence and give our people the freedom to go further.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="wrap contact__inner">
+        <p class="eyebrow reveal">Contact</p>
+        <h2 class="contact__title reveal" id="contact-title">Begin a conversation</h2>
+        <p class="contact__text reveal">For reservations, partnerships, development opportunities or careers, write to us. A member of our team will reply to you personally.</p>
+        <a class="contact__mail reveal" href="mailto:Rk@obelora.com">
+          <span>Rk@obelora.com</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.3" aria-hidden="true"><path d="M5 19L19 5M8 5h11v11"/></svg>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <a href="#top" class="footer__brand" aria-label="Obelora Hospitality, back to top">
+        <svg viewBox="0 0 40 48" fill="none" aria-hidden="true">
+          <path d="M6 46V20C6 11.16 12.27 4 20 4s14 7.16 14 16v26" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M20 13l3 6v21h-6V19l3-6z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
+          <path d="M2 46h36" stroke="currentColor" stroke-width="1.4"/>
+        </svg>
+        <span>Obelora<small>Hospitality</small></span>
+      </a>
+      <nav class="footer__nav" aria-label="Footer">
+        <a href="#resorts">Resorts</a>
+        <a href="#hotels">Hotels</a>
+        <a href="#residences">Campus Residences</a>
+        <a href="#cafes">Cafés</a>
+        <a href="#approach">Our Approach</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__base">
+        <a href="mailto:Rk@obelora.com">Rk@obelora.com</a>
+        <p>© 2026 Obelora Hospitality. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js" defer></script>
+<script data-pplx-inline-edit>
+(function () {
+  if (window === window.top) return;
+
+  const allowedParentOrigins = ["https://www.perplexity.ai","https://perplexity.ai","https://testing.perplexity.ai","https://staging.perplexity.ai","https://*.preview.i.perplexity.ai","http://perplexity.localhost","http://localhost:1420","http://127.0.0.1:1420","http://localhost:3000","http://127.0.0.1:3000","http://localhost:5173","http://127.0.0.1:5173"];
+  const MAX_FONT_BYTES = 500 * 1024;
+  const MAX_TOTAL_FONT_BYTES = 2 * 1024 * 1024;
+  let scrollForwarding = false;
+  let scrollRaf = 0;
+  let trustedTopOrigin = null;
+
+  // Allow entries like "https://*.preview.i.perplexity.ai" — the wildcard
+  // matches a single DNS label (no dots), so "https://*.foo" cannot stretch
+  // across multiple labels.
+  function matchesAllowedOrigin(origin) {
+    if (!origin) return false;
+    for (const entry of allowedParentOrigins) {
+      if (!entry.includes("*")) {
+        if (entry === origin) return true;
+        continue;
+      }
+      const pattern = new RegExp(
+        "^" +
+          entry.replace(/[.+?^${}()|[\]\\]/g, "\\$&").replace(/\*/g, "[^.]+") +
+          "$",
+      );
+      if (pattern.test(origin)) return true;
+    }
+    return false;
+  }
+
+  // Trust decision: when the sender is same-origin-visible (event.origin is a
+  // real origin like https://www.perplexity.ai) we trust event.origin directly.
+  // When event.origin is "null" (opaque broker srcdoc), we fall back to the
+  // broker's stamped `parentOrigin` to identify the top window. The fallback
+  // is claim-only — we rely on the browser's native `targetOrigin` enforcement
+  // on the response path (see postToTrustedTop) to ensure replies can't be
+  // delivered to anyone but the actual top window of that claimed origin.
+  function getTrustedParentOrigin(event) {
+    const forwardedParentOrigin =
+      typeof event.data.parentOrigin === "string" ? event.data.parentOrigin : null;
+    const parentOrigin = event.origin === "null" ? forwardedParentOrigin : event.origin;
+    return matchesAllowedOrigin(parentOrigin) ? parentOrigin : null;
+  }
+
+  // All responses go to window.top with targetOrigin = the allowlisted origin.
+  // An attacker that iframes us inside their own null-origin broker can claim
+  // any parentOrigin they like, but the browser will drop the reply whenever
+  // the real top's origin doesn't match — so the screenshot never leaves.
+  function postToTrustedTop(message) {
+    if (!trustedTopOrigin) return;
+    try {
+      window.top.postMessage(message, trustedTopOrigin);
+    } catch (_error) {}
+  }
+
+  function inlineAll(original, clone) {
+    if (original.nodeType !== 1 || clone.nodeType !== 1) return;
+
+    try {
+      const computedStyle = getComputedStyle(original);
+      // cssText on a computed style is the serialized declaration in modern
+      // Chromium/Safari — a single read beats enumerating ~400 longhand
+      // properties. Firefox returns "" here, so we fall back on empty.
+      const serialized = computedStyle.cssText;
+      if (serialized) {
+        clone.style.cssText = serialized;
+      } else {
+        const parts = new Array(computedStyle.length);
+        for (let index = 0; index < computedStyle.length; index += 1) {
+          const property = computedStyle[index];
+          parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
+        }
+        clone.style.cssText = parts.join("");
+      }
+    } catch (_error) {}
+
+    const originalChildren = original.children;
+    const clonedChildren = clone.children;
+    for (
+      let index = 0;
+      index < originalChildren.length && index < clonedChildren.length;
+      index += 1
+    ) {
+      inlineAll(originalChildren[index], clonedChildren[index]);
+    }
+  }
+
+  function extractFontUrl(srcValue) {
+    const matches = [
+      ...srcValue.matchAll(
+        /url\(["']?([^"')]+)["']?\)(?:\s*format\(["']?([^"')]+)["']?\))?/gi,
+      ),
+    ];
+    if (matches.length === 0) return null;
+    const woff2 = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff2"));
+    if (woff2) return woff2[1];
+    const woff = matches.find((m) => m[2] && m[2].toLowerCase().includes("woff"));
+    if (woff) return woff[1];
+    return matches[0][1];
+  }
+
+  // Cache resolved font URL -> data URI across captures. Fonts on a page
+  // essentially never change, and a batch run emits multiple captures back to
+  // back — without this we'd refetch + re-base64 every time.
+  const fontDataUriCache = new Map();
+  const SRC_DECLARATION_RE = /src\s*:\s*[^;}]+/i;
+
+  async function fetchAsDataUri(url) {
+    if (fontDataUriCache.has(url)) return fontDataUriCache.get(url);
+    let dataUri = null;
+    try {
+      const response = await fetch(url, { mode: "cors", credentials: "omit" });
+      if (response.ok) {
+        const blob = await response.blob();
+        if (blob.size <= MAX_FONT_BYTES) {
+          dataUri = await new Promise((resolve) => {
+            const reader = new FileReader();
+            reader.onloadend = () =>
+              resolve(typeof reader.result === "string" ? reader.result : null);
+            reader.onerror = () => resolve(null);
+            reader.readAsDataURL(blob);
+          });
+        }
+      }
+    } catch (_error) {
+      dataUri = null;
+    }
+    fontDataUriCache.set(url, dataUri);
+    return dataUri;
+  }
+
+  function collectFontFaceRuleTexts() {
+    const rules = [];
+    for (const sheet of document.styleSheets) {
+      let cssRules;
+      try {
+        cssRules = sheet.cssRules;
+      } catch (_error) {
+        continue;
+      }
+      if (!cssRules) continue;
+      for (const rule of cssRules) {
+        const cssText = rule.cssText || "";
+        if (cssText.startsWith("@font-face")) rules.push(cssText);
+      }
+    }
+    return rules;
+  }
+
+  async function buildInlinedFontCss() {
+    const ruleTexts = collectFontFaceRuleTexts();
+    if (ruleTexts.length === 0) return null;
+
+    const resolved = ruleTexts.map((cssText) => {
+      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
+      if (!srcMatch) return null;
+      const url = extractFontUrl(srcMatch[1]);
+      if (!url) return null;
+      try {
+        return { cssText, url: new URL(url, document.baseURI).href };
+      } catch (_error) {
+        return null;
+      }
+    });
+
+    const dataUris = await Promise.all(
+      resolved.map((entry) => (entry ? fetchAsDataUri(entry.url) : Promise.resolve(null))),
+    );
+
+    const inlined = [];
+    let totalBytes = 0;
+    for (let index = 0; index < resolved.length; index += 1) {
+      const entry = resolved[index];
+      const dataUri = dataUris[index];
+      if (!entry || !dataUri) continue;
+      const approxBytes = dataUri.length * 0.75;
+      if (totalBytes + approxBytes > MAX_TOTAL_FONT_BYTES) break;
+      totalBytes += approxBytes;
+      inlined.push(entry.cssText.replace(SRC_DECLARATION_RE, `src: url("${dataUri}")`));
+    }
+    return inlined.length > 0 ? inlined.join("\n") : null;
+  }
+
+  function stripExternal(clone) {
+    const images = clone.querySelectorAll("img");
+    for (let index = 0; index < images.length; index += 1) {
+      const src = images[index].getAttribute("src");
+      if (src && !src.startsWith("data:")) images[index].removeAttribute("src");
+    }
+
+    const elements = clone.querySelectorAll("*");
+    for (let index = 0; index < elements.length; index += 1) {
+      const style = elements[index].style.cssText;
+      if (style && style.includes("url(")) {
+        elements[index].style.cssText = style.replace(
+          /url\(["']?(?!data:)[^)"']*["']?\)/gi,
+          "none",
+        );
+      }
+    }
+  }
+
+  function emitScroll() {
+    scrollRaf = 0;
+    if (!scrollForwarding) return;
+    postToTrustedTop({
+      type: "INLINE_EDIT_SCROLL",
+      scrollX: window.scrollX,
+      scrollY: window.scrollY,
+    });
+  }
+
+  window.addEventListener(
+    "scroll",
+    function () {
+      if (!scrollForwarding || scrollRaf) return;
+      scrollRaf = requestAnimationFrame(emitScroll);
+    },
+    { passive: true, capture: true },
+  );
+
+  async function handleCaptureRequest(event) {
+    const requestId = event.data.requestId;
+    const scrollX = window.scrollX;
+    const scrollY = window.scrollY;
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+
+    function postResult(dataUrl) {
+      postToTrustedTop({
+        type: "INLINE_EDIT_SCREENSHOT_RESULT",
+        requestId,
+        dataUrl,
+        scrollX,
+        scrollY,
+      });
+    }
+
+    try {
+      // Wait for any pending web fonts to resolve so both inline metrics and
+      // the @font-face inlining below see the same loaded faces.
+      if (document.fonts && document.fonts.ready) {
+        try {
+          await document.fonts.ready;
+        } catch (_error) {}
+      }
+
+      const clone = document.documentElement.cloneNode(true);
+      inlineAll(document.documentElement, clone);
+
+      const removedNodes = clone.querySelectorAll("script,link[rel=\"stylesheet\"],style");
+      for (let index = 0; index < removedNodes.length; index += 1) {
+        removedNodes[index].remove();
+      }
+
+      stripExternal(clone);
+
+      // Re-embed web fonts as data-URI @font-face rules so the SVG rasterizer
+      // can resolve them — external font URLs aren't fetched during
+      // foreignObject rendering, which would otherwise force a fallback face
+      // and change text metrics.
+      const inlinedFontCss = await buildInlinedFontCss();
+      if (inlinedFontCss) {
+        const styleEl = document.createElement("style");
+        styleEl.textContent = inlinedFontCss;
+        const head = clone.querySelector("head");
+        if (head) head.appendChild(styleEl);
+        else clone.insertBefore(styleEl, clone.firstChild);
+      }
+
+      const html = new XMLSerializer().serializeToString(clone);
+      const svg =
+        `<svg xmlns="http://www.w3.org/2000/svg" width="${width}" height="${height}">` +
+        '<foreignObject width="100%" height="100%">' +
+        `<div xmlns="http://www.w3.org/1999/xhtml" style="width:${width}px;height:${height}px;overflow:hidden">` +
+        `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
+        html +
+        "</div></div></foreignObject></svg>";
+      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const image = new Image();
+      image.onload = function () {
+        const canvas = document.createElement("canvas");
+        canvas.width = width;
+        canvas.height = height;
+        canvas.getContext("2d").drawImage(image, 0, 0);
+        postResult(canvas.toDataURL("image/png"));
+      };
+      image.onerror = function () {
+        postResult(null);
+      };
+      image.src = svgUrl;
+    } catch (_error) {
+      postResult(null);
+    }
+  }
+
+  window.addEventListener("message", function (event) {
+    if (!event.data) return;
+    // Only accept messages from the direct parent frame. Blocks sibling /
+    // unrelated-window postMessage senders that could otherwise reach us.
+    if (event.source !== window.parent) return;
+
+    const trustedParentOrigin = getTrustedParentOrigin(event);
+    if (!trustedParentOrigin) return;
+    trustedTopOrigin = trustedParentOrigin;
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_START") {
+      scrollForwarding = true;
+      emitScroll();
+      return;
+    }
+
+    if (event.data.type === "INLINE_EDIT_SCROLL_STOP") {
+      scrollForwarding = false;
+      if (scrollRaf) cancelAnimationFrame(scrollRaf);
+      scrollRaf = 0;
+      return;
+    }
+
+    if (event.data.type !== "INLINE_EDIT_CAPTURE_REQUEST") return;
+
+    handleCaptureRequest(event);
+  });
+})();
+
+
+</script></body>
+</html>
